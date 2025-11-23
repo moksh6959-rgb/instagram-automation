@@ -1,6 +1,6 @@
 requests
 pillow
-moviepy==1.0.3
+moviepy
 huggingface_hub
 edge-tts
 cloudinary
