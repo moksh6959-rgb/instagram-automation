@@ -1,1 +1,6 @@
-
+requests
+pillow
+moviepy
+huggingface_hub
+edge-tts
+cloudinary
