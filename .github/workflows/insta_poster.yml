@@ -23,11 +23,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y ffmpeg imagemagick fonts-dejavu-core
 
-      - name: Install Python dependencies (moviepy 1.0.3)
+      - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
-          python -c "import sys, moviepy, moviepy.editor; print('PYTHON:', sys.executable); print('moviepy version:', moviepy.__version__)"
 
       - name: Run auto-poster
         env:
